@@ -1,0 +1,117 @@
+/* styles.css */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.container {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    width: 90%;
+    max-width: 800px;
+}
+
+.new-note, .filters {
+    margin-bottom: 20px;
+}
+
+.new-note h2 {
+    margin-top: 0;
+    color: #ffcc00;
+}
+
+.new-note input, .new-note textarea {
+    width: calc(100% - 20px);
+    margin-bottom: 10px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    display: block;
+}
+
+.new-note button {
+    width: calc(50% - 10px);
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    color: #fff;
+}
+
+#add-note-btn {
+    background-color: #28a745;
+}
+
+#clear-fields-btn {
+    background-color: #dc3545;
+}
+
+.filters input {
+    width: calc(100% - 20px);
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+.filters label {
+    display: flex;
+    align-items: center;
+    font-weight: bold;
+}
+
+.notes-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.note-card {
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 10px;
+    width: calc(50% - 10px);
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    position: relative;
+}
+
+.note-card h3 {
+    margin-top: 0;
+    margin-bottom: 10px;
+}
+
+.note-card p {
+    margin: 0;
+}
+
+.note-card button {
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+    padding: 5px 10px;
+    background-color: #dc3545;
+    border: none;
+    border-radius: 5px;
+    color: #fff;
+    cursor: pointer;
+}
+
+.note-card input[type="checkbox"] {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+}
+
+.note-completed {
+    text-decoration: line-through;
+    color: #ccc;
+}
+
