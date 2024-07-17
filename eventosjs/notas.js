@@ -1,4 +1,3 @@
-
 let notas = [
     { id: 1, titulo: 'Sacar la basura', texto: 'mi mama me va a retar si no lo hago', realizada: false },
     { id: 2, titulo: 'Comer', texto: 'quedo comida de ayer', realizada: true },
